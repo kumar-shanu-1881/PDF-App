@@ -1,0 +1,15 @@
+add ----->   file=find.find_file(file) to every file to find the path by the name of the file which gives user friendly experience 
+
+
+
+#     pypdf can’t take raw text and make a new PDF, but it can do things like:
+
+# Merge two or more PDFs  ✅
+
+# Split pages into new files✅  
+
+# Rotate, crop, or rearrange pages
+
+# Add or remove pages
+
+# Encrypt or decrypt a PDF   ✅
