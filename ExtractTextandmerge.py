@@ -3,7 +3,7 @@ from pypdf import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 
-def writepdf():
+def Extractandmerge():
     # 1. Ask for text file
     text_file = input("Enter the text file name or path (with extension): ").strip()
     if not text_file.endswith(".txt"):
@@ -87,4 +87,4 @@ def writepdf():
     print(f"✅ Merged PDF saved successfully as '{new_pdf_name}'")
 
 if __name__ == "__main__":
-    writepdf()
+    Extractandmerge()

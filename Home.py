@@ -1,5 +1,5 @@
 #Completed✅
-import MergePdf, ReadPdf, Decryptpdf ,Encryptpdf,Createpdf,WritePDF,Splitpdf,Extracttext
+import MergePdf, ReadPdf, Decryptpdf ,Encryptpdf,Createpdf,WritePDF,Splitpdf,Extracttext,ExtractTextandmerge
 print("Welcome !")
 print("This is a simple pdf app")
 print("Pick a option what do you want to do ?:-")
@@ -21,7 +21,7 @@ try:
             Createpdf.generate_pdf()#Completed but some bugs need to fix 
         case "2":
             print("You have chosen to extract text from one or more pdf and save it in one")
-            ExtractTextandmerge()
+            ExtractTextandmerge.Extractandmerge()
         case "3":
             print("You have chosen to read a pdf file")
             ReadPdf.readpdf() #Completed✅
