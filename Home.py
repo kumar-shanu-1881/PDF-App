@@ -21,7 +21,7 @@ try:
             Createpdf.generate_pdf()#Completed but some bugs need to fix 
         case "2":
             print("You have chosen to extract text from one or more pdf and save it in one")
-            ExtractTextandmerge.Extractandmerge()
+            ExtractTextandmerge.Extractandmerge() #Completed ✅
         case "3":
             print("You have chosen to read a pdf file")
             ReadPdf.readpdf() #Completed✅
