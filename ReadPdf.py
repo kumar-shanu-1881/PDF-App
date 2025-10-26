@@ -1,9 +1,12 @@
 # completed
+import os 
 from pypdf import PdfReader
 
 def readpdf():
     try:
         pdf=input("Enter the path of the pdf file :- ")
+        if not os.path.exists(pdf):
+            print("File path not found! Please check the path ")
         pdf=pdf.replace("\\","/")
         reader=PdfReader(pdf)
     
