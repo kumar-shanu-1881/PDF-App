@@ -1,5 +1,5 @@
 #Completed✅
-import MergePdf, ReadPdf, Decryptpdf ,Encryptpdf,Createpdf,WritePDF,Splitpdf,Extracttext,ExtractTextandmerge
+import MergePdf, ReadPdf, Decryptpdf ,Encryptpdf,Createpdf,WritePDF,Splitpdf,Extracttext,ExtractTextandmerge,rotate
 print("Welcome !")
 print("This is a simple pdf app")
 print("Pick a option what do you want to do ?:-")
@@ -11,7 +11,9 @@ print("\t5. Merge pdf files")
 print("\t6. Split pdf files")
 print("\t7. Encrypt pdf file")
 print("\t8. Decrypt pdf file")
-print("\t9. exit()")
+print("\t9. Extract text from pdf and save it in text file ")
+print("\t10. Rotate pdf file/or pages")
+print("\t11. exit()")
 print()
 try:
     choice=input("Enter your choice:- ")
@@ -44,6 +46,9 @@ try:
             print("Extract text from pdf and create a text file from that text")
             Extracttext.extracttext()#Completed✅
         case "10":
+            print("Rotate Pdf / page of pdf  ")
+            rotate.rotatepdf()
+        case "11":
             print("Thankyou for using this app")
 except Exception as e:
     print("Invalid choice")
