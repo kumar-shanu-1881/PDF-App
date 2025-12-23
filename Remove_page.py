@@ -15,7 +15,7 @@ def remove_page():
         print("Enter the no of pages you want to remove from pdf :\n")
 
         start=int(input("From page:- "))
-        end=int(input("To page:- "))
+        end=int(input("\nTo page:- "))
         remove_pages = range(start, end+1)  
 
         for i, page in enumerate(reader.pages):
@@ -25,7 +25,7 @@ def remove_page():
                 
         name=input("Enter the name you want to save the PDF file as. ")
         if not name:
-            name="Rotated.pdf"
+            name="new_updated.pdf"
         if not name.endswith('.pdf'):
             name+=".pdf"
 
