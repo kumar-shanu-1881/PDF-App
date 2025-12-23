@@ -16,7 +16,7 @@ It offers a set of functionalities to create, read, split, merge, encrypt, decry
 ## 🛠️ Prerequisites  
 
 - Python 3.x installed on your system.  
-- (Any additional dependencies you use — mention them here, e.g. `PyPDF2`, etc.)  
+- (Any additional dependencies you use — `PyPDF2`, `Reportlib`)  
 
 ## 🚀 Installation & Setup  
 
@@ -85,8 +85,7 @@ Please ensure new code is clean, commented (if needed), and doesn’t break exis
 
 ## 📝 License  
 
-(If you have a license — e.g. MIT)  
-This project is licensed under the MIT License — see the `LICENSE` file for details.  
+
 
 ## 🙋 Author / Maintainer  
 
