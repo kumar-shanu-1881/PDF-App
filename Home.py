@@ -48,10 +48,10 @@ try:
             Extracttext.extracttext()#Completed✅
         case "10":
             print("Rotate Pdf / pages of pdf  ")
-            rotate.rotatepdf()
+            rotate.rotatepdf()#Completed✅
         case "11":
             print("Remove pages of pdf  ")
-            Remove_page.remove_page()
+            Remove_page.remove_page()#Completed✅
         case "12":
             print("Thankyou for using this app")
 except Exception as e:
